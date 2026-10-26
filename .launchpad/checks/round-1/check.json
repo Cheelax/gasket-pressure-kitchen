@@ -1,0 +1,10 @@
+{
+  "name": "round 1: Core pressure loop and valve controls",
+  "run": "node .launchpad/checks/round-1/run.mjs",
+  "timeoutSeconds": 180,
+  "tests": [
+    "index.html exists and renders the game canvas",
+    "pressure gauge and lever controls are wired",
+    "brand palette (#0D0908 and #F05A18) is used without blue/purple"
+  ]
+}
